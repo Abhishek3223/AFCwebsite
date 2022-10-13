@@ -1,0 +1,25 @@
+.project {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 30px;
+  display: flex;
+  height: 70%;
+}
+.projectImg {
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid red;
+}
+.projectImg img {
+  width: 100%;
+}
+.discrip {
+  padding: 10px;
+  width: 90vw;
+  text-align: justify;
+}
+.disc-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
