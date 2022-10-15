@@ -1,24 +1,20 @@
 import React from "react";
 import article from '../discription_source/discription.json'
+// import logo from "../images/1.png"
 import ProjectBar from "./projectsDetails";
 
 export default function Projects(props) {
 
     return (
-        <div style={{ margin: "10% ", border: "2px solid grey" }}>
-
+        <div style={{ margin: "10% " }}>
 
             {article.articles.map((elem) => {
-
-
+                console.log(elem.src)
                 return <div key={elem.title}>
-                    <ProjectBar title={elem.title} discription={elem.discription} imgSrc={elem.src} other={elem.other_function} />
+                    <ProjectBar title={elem.title} date={elem.date} discription={elem.discription} imgSrc={elem.src} other={elem.other_function} />
                 </div>
             })}
 
-
         </div>
-
-
     )
 }

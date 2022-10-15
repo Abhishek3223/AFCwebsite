@@ -1,13 +1,17 @@
 import React from "react";
 import '../css/projectDetails.css'
 
+function makeArray(p) {
+
+
+}
 export default function projectBar(props) {
 
     return (
         <div className="project">
             <div className="projectImg">
-                <img src="{logo}" alt="not found" srcSet="" />
-
+                <img src={props.imgSrc} alt="not found" srcSet="" />
+                <p id="date_section"> {props.date}</p>
             </div>
             <div className="discrip">
 
@@ -15,11 +19,16 @@ export default function projectBar(props) {
                 <p style={{ textAlign: "justify" }}>
                     {props.discription}
                 </p>
-                <p>
-                    {props.other}
-                </p>
+
+
+                <div>
+                    {(props.other).split(",").map((e) => {
+                        return <p>{e}</p>
+                    })}
+                </div>
             </div>
         </div>
+
 
     )
 }
