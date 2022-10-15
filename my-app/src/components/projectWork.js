@@ -8,9 +8,9 @@ export default function Projects(props) {
     return (
         <div style={{ margin: "10% " }}>
 
-            {article.articles.map((elem) => {
-                console.log(elem.src)
-                return <div key={elem.title}>
+            {article.articles.map((elem,i) => {
+            
+                return <div key={i}>
                     <ProjectBar title={elem.title} date={elem.date} discription={elem.discription} imgSrc={elem.src} other={elem.other_function} />
                 </div>
             })}

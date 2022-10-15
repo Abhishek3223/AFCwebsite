@@ -1,13 +1,11 @@
 import React from "react";
 import '../css/projectDetails.css'
 
-function makeArray(p) {
 
-
-}
 export default function projectBar(props) {
 
     return (
+        
         <div className="project">
             <div className="projectImg">
                 <img src={props.imgSrc} alt="not found" srcSet="" />

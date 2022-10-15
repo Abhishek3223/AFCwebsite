@@ -1,20 +1,25 @@
+:root {
+  --bg-green: #95aa63;
+  --bg-grey: #383e44;
+}
 .project {
-  border-radius: 5px;
-  background-color: #95aa63;
+  border-radius: 10px;
+  background-color: var(--bg-green);
   margin: 30px;
   display: flex;
   height: 70%;
 }
 .projectImg {
-  background-color: #fafafa;
-  border-radius: 5px;
+  background-color:rgb(229, 229, 229);
+  border-radius: 10px;
   width: 100%;
 }
 .projectImg img {
   width: 100%;
 }
 .discrip {
-  background-color: #95aa63;
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--bg-green);
   padding: 20px;
   width: 90vw;
   text-align: justify;
@@ -25,10 +30,9 @@
   font-weight: 600;
 }
 
-
 #date_section {
   color: white;
-  background-color: grey;
+  background-color: var(--bg-grey);
   border-radius: 5px;
   /* width: 35%; */
   display: inline;

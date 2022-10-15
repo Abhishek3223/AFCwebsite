@@ -2,8 +2,8 @@
     "articles": [
         {
             "title": " First hovwer ",
-            "date": " 27 july 1885",
-            "src": "../images/1.png",
+            "date": " 27 jan 1999",
+            "src": "my-app/src/images/1.png",
             "discription": " If only man could have wings........ Though he does not and at present cannot have a set of wings for himself he, on the bright side, has successfully engineered machines which took airborne with speeds that are greater than the sound. In attempt towards working and improvising this achievement of mankind we at the Automotive & Fabrication Club design our own flying machine with the best sources available with a powerful A 2212 1400KV Brushless motor pumping blood at the rate of 1400 rpm to its main propeller, a fluidly aerodynamic depron body 4.8v (1.80 kg-cm)servo motors for manoeuvring and a 1000mAh 3S li-po 11.1 /20c battery for ample power it soars in the air like bird in its natural habitat.",
             "other_function": "Engine: 3.48, Chassis Metal: Mild Steel Plate, Wheelbase: 322mm (12.7 in) ,Control System: 2.4 GHz 3 Channel , Radio Control System  Suspension: C-Hub Suspension"
         },
