@@ -8,6 +8,7 @@ export default function projectBar(props) {
         
         <div className="project">
             <div className="projectImg">
+                {console.log(props.imgSrc)}
                 <img src={props.imgSrc} alt="not found" srcSet="" />
                 <p id="date_section"> {props.date}</p>
             </div>
